@@ -82,7 +82,7 @@ module "vnet-spoke" {
   subnets = {
 
     app_subnet = {
-      subnet_name           = "applicaiton"
+      subnet_name           = "application"
       subnet_address_prefix = ["10.2.1.0/24"]
       service_endpoints     = ["Microsoft.Storage"]
 
